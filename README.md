@@ -13,19 +13,19 @@ Allowing candidates to answer questions interactively
 
 Saving candidate data, questions, and answers for review
 
-✨ Features
+ Features
 
-📋 Candidate information form (name, email, phone, experience, etc.)
+ Candidate information form (name, email, phone, experience, etc.)
 
-⚡ AI-powered mode (LLaMA local model) for generating diverse interview questions
+ AI-powered mode (LLaMA local model) for generating diverse interview questions
 
-🚀 Fast fallback mode (template-based questions) when LLaMA is unavailable
+ Fast fallback mode (template-based questions) when LLaMA is unavailable
 
-🎨 Modern, styled Streamlit UI with sidebar form and question cards
+ Modern, styled Streamlit UI with sidebar form and question cards
 
-💾 Save candidate responses to JSON for recruiter review
+ Save candidate responses to JSON for recruiter review
 
-🔧 Debug expander to view session state
+ Debug expander to view session state
 
 📂 Project Structure
 ├── app.py                 # Main Streamlit app
@@ -40,7 +40,7 @@ Install dependencies:
 
 pip install streamlit llama-cpp-python
 
-▶️ Usage
+▶ Usage
 
 Clone the repo or copy app.py
 
@@ -51,7 +51,7 @@ streamlit run app.py
 
 Open the app in your browser (default: http://localhost:8501)
 
-⚙️ Configuration
+⚙ Configuration
 
 LLM model: Update MODEL_PATH in app.py with your local .gguf file:
 
@@ -60,7 +60,7 @@ MODEL_PATH = r"C:\path\to\your\llama_model.gguf"
 
 Toggle AI mode in the sidebar to use LLaMA (if installed).
 
-💡 Example Flow
+ Example Flow
 
 Enter candidate details and tech stack in the sidebar.
 
@@ -74,7 +74,7 @@ Candidate writes answers directly in the app.
 
 Click Submit Answers → data is saved to candidate_data.json.
 
-🎨 UI Highlights
+ UI Highlights
 
 Sidebar for candidate info
 
