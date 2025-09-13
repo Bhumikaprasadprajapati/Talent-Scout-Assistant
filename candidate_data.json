@@ -1,0 +1,28 @@
+{
+  "candidate_info": {
+    "full_name": "Bhoomika Prasad Prajapati",
+    "email": "",
+    "phone": "",
+    "years_experience": "",
+    "desired_positions": "",
+    "location": "",
+    "tech_stack_list": [
+      "sql"
+    ]
+  },
+  "questions": {
+    "sql": [
+      "Explain a core concept of Sql.",
+      "Describe a real-world use case of Sql.",
+      "Give a short code example using Sql."
+    ]
+  },
+  "answers": {
+    "sql": [
+      "",
+      "",
+      ""
+    ]
+  },
+  "timestamp": "2025-09-13 22:25:29"
+}
